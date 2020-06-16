@@ -1,3 +1,5 @@
+const prompts = require('prompts');
+
 const questions = [{
     type: "text",
     name: "title",
@@ -45,6 +47,12 @@ const questions = [{
 }
 
 ];
+
+(async () => {
+    const response = await prompts(questions);
+   
+    response => { username, age, about }
+  })();
 
 function writeToFile(fileName, data) {
 }
