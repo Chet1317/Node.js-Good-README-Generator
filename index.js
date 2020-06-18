@@ -1,4 +1,5 @@
 const prompts = require('prompts');
+const fs = require("fs")
 
 const questions = [{
     type: "text",
@@ -12,7 +13,7 @@ const questions = [{
 },
 {
     type: "text",
-    name: "table of contents",
+    name: "table",
     message: "Provide a table of contents for your project",
 },
 {
@@ -39,24 +40,28 @@ const questions = [{
     type: "text",
     name: "tests",
     message: "Provide how to run test of your project",
-},
-{
+
     type: "text",
-    name: "title",
-    message: "What is the title of your project?",
+    name: "badge",
+    message: "Badges let other developers know that you know what you're doing. Please provide badge if you wish here"
 }
 
 ];
 
 (async () => {
     const response = await prompts(questions);
-   
-    response => { username, age, about }
-  })();
+    
+    let readMeList = response.title + "\n" + response.description +"\n" + response.installation
 
-function writeToFile(fileName, data) {
+    fs.writeFile('README.md', readMeList, function (err){
+    if(err) throw err;
+    console.log('updated');
+
 }
+)
+ })();
 
+   
 function init() {
 
 }
