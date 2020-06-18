@@ -1,6 +1,7 @@
 const prompts = require('prompts');
 const fs = require("fs")
 
+
 const questions = [{
     type: "text",
     name: "title",
@@ -9,12 +10,13 @@ const questions = [{
 {
     type: "text",
     name: "description",
-    message: "Provide breif description for your project", 
+    message: "Provide a brief description for your project", 
 },
 {
     type: "text",
-    name: "table",
-    message: "Provide a table of contents for your project",
+    name: "content",
+    message: "Provide content here",
+    choices: ["installation", "Usage", "Licensing", "Contibuters", "Questions"]
 },
 {
     type: "text",
@@ -24,12 +26,12 @@ const questions = [{
 {
     type: "text",
     name: "usage",
-    message: "Please provide instructions for use",
+    message: "How will it be used",
 },
 {
     type: "text",
     name: "license",
-    message: "List any liscening for your project",
+    message: "Is the project Licensed and how?",
 },
 {
     type: "text",
@@ -51,9 +53,9 @@ const questions = [{
 ];
 
 (async () => {
-    const response = await prompts(questions);
+    const response = await prompts(questions); 
     
-    let readMeList = response.title + "\n" + response.description +"\n" + response.table +"\n" + response.installation +"\n" + response.usage +"\n" + response.license +"\n" + response.contributes +"\n" + response.tests +"\n" + response.badge
+    let readMeList = response.title + "\n" + response.description + "\n" + response.content.choices + "\n" + response.installation + "\n" + response.usage +"\n" + response.license +"\n" + response.contributes +"\n" + response.badge +"\n" + response.questions
 
     fs.writeFile('README.md', readMeList, function (err){
     if(err) throw err;
