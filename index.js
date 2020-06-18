@@ -13,7 +13,7 @@ const questions = [{
     message: "Provide a brief description for your project", 
 },
 {
-    type: "text",
+    type: "multiselect",
     name: "content",
     message: "Provide content here",
     choices: ["installation", "Usage", "Licensing", "Contibuters", "Questions"]
@@ -39,7 +39,6 @@ const questions = [{
     message: "List any collaborators, if any?",
 },
 {
-
     type: "text",
     name: "badge",
     message: "Badges let other developers know that you know what you're doing. Please provide badge if you wish here"
