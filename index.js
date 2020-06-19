@@ -58,20 +58,19 @@ const questions = [{
 
 (async () => {
     const response = await prompts(questions); 
-  
-    let readMeList = response.title + "\n" + response.description + "\n" + response.content + "\n" + response.installation + "\n" + response.usage +"\n" + response.license +"\n" + response.contributes +"\n" + response.badge +"\n" + response.questions
-
+    let readMeList = `<h1>Title</h1>` +"\n" + "\n" + `${response.title}` +"\n" + "\n" + `Description` + "\n" + "\n" + `${response.description}` + "\n" + "\n" + `${response.content}` + "\n" + response.installation + "\n" + response.usage +"\n" + response.license +"\n" + response.contributes +"\n" + response.badge +"\n" + response.questions
+    
     fs.writeFile('README.md', readMeList, function (err){
     if(err) throw err;
     console.log('updated');
-
 }
 )
  })();
 
-   function init(){
+
+   function init(licenses){
        
-     return  `MIT License
+    return  `MIT License
 
       Copyright (c) 2020 Chet Martin
       
