@@ -5,12 +5,12 @@ sdf
 sdf
 
 # Table of Contents
-[Installation,Usage,Licensing,Contibuters,Questions](#installation)(#usage)
+[Installation,Usage,Licensing,Contibuters,Questions](#installation, #usage)
 
 # Installation
-sdfg
+sdf
 # Usage
-dsg
+sdf
 GNU License
 sdf
 sdf

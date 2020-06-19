@@ -60,7 +60,7 @@ const questions = [{
     const response = await prompts(questions); 
     let readMeList = `# Title` +"\n" +  `${response.title}` +"\n" + "\n" + 
     `# Description` + "\n" + `${response.description}` + "\n" + "\n" + 
-    `# Table of Contents`+ "\n" + `[${response.content}](#installation)(#usage)` 
+    `# Table of Contents`+ "\n" + `[${response.content}](#installation, #usage)` 
     + "\n" + "\n" + `# Installation` +"\n" + `${response.installation}` + "\n" + 
     `# Usage` + "\n" + response.usage +"\n" + 
     response.license +"\n" + response.contributes +"\n" + response.badge +"\n" + response.questions
