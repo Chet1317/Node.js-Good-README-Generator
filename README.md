@@ -6,13 +6,17 @@ sdf
 [Installation](#installation)
 [Usage](#usage)
 [Licensing](#license)
-[Contibuters](#contributors)
+[Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-df
+sdf
 # Usage
 sdf
+# Licensing
 GNU License
+# Contributors
 sdf
+# Badge
 sdf
+# Questions
 sdf

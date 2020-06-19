@@ -19,7 +19,7 @@ const questions = [{
     choices: [{value:"Installation"}, 
     {value:"Usage"}, 
     {value:"Licensing"}, 
-    {value:"Contibuters"}, 
+    {value:"Contibutors"}, 
     {value:"Questions"}],
 },
 {
@@ -66,9 +66,10 @@ const questions = [{
     `[${response.content[3]}](#contributors)`
     +"\n" + `[${response.content[4]}](#questions)` +"\n" + `# Installation` +"\n" + 
     `${response.installation}` + "\n" + 
-    `# Usage` + "\n" + `${response.usage}` +"\n" + 
-    `${response.license}` +"\n" + `${response.contributes}` +"\n" + 
-    `${response.badge}` +"\n" + `${response.questions}`
+    `# Usage` + "\n" + `${response.usage}` +"\n" + `# Licensing`+ "\n" +
+    `${response.license}` +"\n" + `# Contributors` +"\n" + `${response.contributes}` 
+    +"\n" +  `# Badge` + "\n" + `${response.badge}` +"\n" +  
+    `# Questions` +"\n" + `${response.questions}`
     
     fs.writeFile('README.md', readMeList, function (err){
     if(err) throw err;
