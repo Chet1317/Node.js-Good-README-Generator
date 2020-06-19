@@ -58,8 +58,12 @@ const questions = [{
 
 (async () => {
     const response = await prompts(questions); 
-    let readMeList = `<h1>Title</h1>` +"\n" +  `${response.title}` +"\n" + "\n" + `<h1>Description</h1>` + "\n" + `${response.description}` + "\n" + "\n" + `<h1 name= "toc">Table of Contents</h1>`+ "\n" + 
-    `<ul>[${response.content}](#toc)</ul>` + "\n" + "\n" + `<h1>Installation</h1>` +"\n" + `${response.installation}` + "\n" + response.usage +"\n" + response.license +"\n" + response.contributes +"\n" + response.badge +"\n" + response.questions
+    let readMeList = `# Title` +"\n" +  `${response.title}` +"\n" + "\n" + 
+    `# Description` + "\n" + `${response.description}` + "\n" + "\n" + 
+    `# Table of Contents`+ "\n" + `[${response.content}](#content)` 
+    + "\n" + "\n" + `# Installation` +"\n" + `${response.installation}` + "\n" + 
+    `# Usage` + "\n" + response.usage +"\n" + 
+    response.license +"\n" + response.contributes +"\n" + response.badge +"\n" + response.questions
     
     fs.writeFile('README.md', readMeList, function (err){
     if(err) throw err;
