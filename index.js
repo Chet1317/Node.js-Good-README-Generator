@@ -17,7 +17,7 @@ const questions = [{
     name: "content",
     message: "Provide content here",
     choices: [{value:"Installation"}, 
-    { value:"Usage"}, 
+    {value:"Usage"}, 
     {value:"Licensing"}, 
     {value:"Contibuters"}, 
     {value:"Questions"}],
@@ -60,8 +60,8 @@ const questions = [{
     const response = await prompts(questions); 
     let readMeList = `# Title` +"\n" +  `${response.title}` +"\n" + "\n" + 
     `# Description` + "\n" + `${response.description}` + "\n" + "\n" + 
-    `# Table of Contents`+ "\n" + `[${response.content}](#installation, #usage)` 
-    + "\n" + "\n" + `# Installation` +"\n" + `${response.installation}` + "\n" + 
+    `# Table of Contents`+ "\n" + `[${response.content[0]}](#installation)` 
+    + "\n" + `[${response.content[1]}](#usage)` +"\n" + `# Installation` +"\n" + `${response.installation}` + "\n" + 
     `# Usage` + "\n" + response.usage +"\n" + 
     response.license +"\n" + response.contributes +"\n" + response.badge +"\n" + response.questions
     
