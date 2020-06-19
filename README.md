@@ -5,12 +5,12 @@ sdf
 sdf
 
 <h1>Table of Contents</h1>
-<ul> <a>Installation,Usage,Licensing,Contibuters,Questions</a> </ul>
+<ul>Installation,Usage,Licensing,Contibuters,Questions</ul>
 
 <h1>Installation</h1>
-sd
-sd
-MIT License
-sd
-sd
-sd
+sdfs
+sdf
+GNU License
+sdf
+sdf
+sdf

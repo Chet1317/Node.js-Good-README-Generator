@@ -17,10 +17,10 @@ const questions = [{
     name: "content",
     message: "Provide content here",
     choices: [{value:"Installation"}, 
-    { value:"Usage"},"\n" 
-    {value:"Licensing"},"\n" 
-    {value:"Contibuters"},"\n" 
-    {value:"Questions"}],"\n"
+    { value:"Usage"}, 
+    {value:"Licensing"}, 
+    {value:"Contibuters"}, 
+    {value:"Questions"}],
 },
 {
     type: "text",
