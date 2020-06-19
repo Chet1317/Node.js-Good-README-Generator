@@ -1,14 +1,15 @@
 # Title
 sdf
-
 # Description
 sdf
-
 # Table of Contents
 [Installation](#installation)
 [Usage](#usage)
+[Licensing](#license)
+[Contibuters](#contributors)
+[Questions](#questions)
 # Installation
-sdfg
+df
 # Usage
 sdf
 GNU License
