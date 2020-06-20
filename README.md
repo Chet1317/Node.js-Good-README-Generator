@@ -1,7 +1,7 @@
 # Title
-sdf
+title shot 
 # Description
-sdf
+a movie
 # Table of Contents
 [Installation](#installation)
 [Usage](#usage)
@@ -9,14 +9,14 @@ sdf
 [Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-sdf
+with a computer 
 # Usage
-sdf
+online
 # Licensing
-GNU License
+MIT License
 # Contributors
-sdf
+none
 # Badge
-sdf
+none
 # Questions
-sdf
+none

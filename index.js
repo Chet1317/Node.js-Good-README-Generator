@@ -36,7 +36,7 @@ const questions = [{
     type: "select",
     name: "license",
     message: "Please choose a license or hit enter to skip",
-    choices: [{ value: "GNU License" }, { value: "MIT License" }]
+    choices: [{ value: "MIT License" }, { value: "GNU License" }]
 },
 {
     type: "text",
@@ -78,13 +78,15 @@ const questions = [{
     fs.writeFile('README.md', readMeList, function (err) {
         if (err) throw err;
         console.log('updated');
+
+    license(response)
     }
     )
 })();
 
 
-function init(licenses) {
-
+function license(response) {
+    if(response.license[0]){
     return `MIT License
 
       Copyright (c) 2020 Chet Martin
@@ -106,10 +108,8 @@ function init(licenses) {
       LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.`
-}
-
-function outit() {
-    return `                    GNU GENERAL PUBLIC LICENSE
+    }else {
+    return ` GNU GENERAL PUBLIC LICENSE
        Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -783,4 +783,5 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.`
+}
 }
