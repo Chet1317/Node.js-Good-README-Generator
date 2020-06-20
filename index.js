@@ -33,7 +33,7 @@ const questions = [{
     message: "How will it be used?",
 },
 {
-    type: "multiselect",
+    type: "select",
     name: "license",
     message: "Please choose a license.",
     choices: [{ value: "MIT" }, { value: "GNU" }],
@@ -75,8 +75,8 @@ const questions = [{
         `# Usage` + "\n" +
         `${response.usage}` + "\n" +
         `# Licensing` + "\n" +
-        `[${response.license[0]}] (C:\Users\Chet\Bootcamp\Node.js-and-ES6-Homework-Good-README-Generator\license.txt)` + "\n" +
-        `[${response.license[1]}](C:\Users\Chet\Bootcamp\Node.js-and-ES6-Homework-Good-README-Generator\glicense.txt)` + "\n" +
+        `[${response.license[0]}] (${mitLicense})` + "\n" +
+        `[${response.license[1]}](${gnuLicense})` + "\n" +
         `# Contributors` + "\n" + `${response.contributes}`
         + "\n" + `# Badge` + "\n" + `${response.badge}` + "\n" +
         `# Questions` + "\n" + `${response.questions}`
