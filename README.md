@@ -1,7 +1,7 @@
 # Title
-title shot 
+sdf
 # Description
-a movie
+sdf
 # Table of Contents
 [Installation](#installation)
 [Usage](#usage)
@@ -9,14 +9,14 @@ a movie
 [Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-with a computer 
+sdf
 # Usage
-online
+sdf
 # Licensing
 MIT License
 # Contributors
-none
+sdf
 # Badge
-none
+sdf
 # Questions
-none
+sdf
