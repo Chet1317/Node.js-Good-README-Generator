@@ -30,13 +30,13 @@ const questions = [{
 {
     type: "text",
     name: "usage",
-    message: "How will it be used",
+    message: "How will it be used?",
 },
 {
-    type: "select",
+    type: "multiselect",
     name: "license",
-    message: "Please choose a license or hit enter to skip",
-    choices: [{ value: "MIT License" }, { value: "GNU License" }]
+    message: "Please choose a license.",
+    choices: [{ value: "MIT" }, { value: "GNU" }],
 },
 {
     type: "text",
