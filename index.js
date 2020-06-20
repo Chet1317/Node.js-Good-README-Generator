@@ -75,8 +75,8 @@ const questions = [{
         `# Usage` + "\n" +
         `${response.usage}` + "\n" +
         `# Licensing` + "\n" +
-        `${response.license[0]}` + "\n" +
-        `${response.license[1]}`+"\n" +
+        `[${response.license[0]}](#MIT)` + "\n" +
+        `[${response.license[1]}](#GNU)`+"\n" +
         `# Contributors` + "\n" + `${response.contributes}`
         + "\n" + `# Badge` + "\n" + `${response.badge}` + "\n" +
         `# Questions` + "\n" + `${response.questions}`
