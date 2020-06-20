@@ -87,7 +87,7 @@ const questions = [{
 
 function license(response){ 
     var mitLicense = response.license[0]
-    mitLicense = `MIT License
+    mitLicense = `# MIT License
 
       Copyright (c) 2020 Chet Martin
       
@@ -784,4 +784,6 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.`
+console.log(response.license)
+
 }
