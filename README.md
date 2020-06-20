@@ -1,5 +1,5 @@
 # Title
-df
+sdf
 # Description
 sdf
 # Table of Contents
@@ -9,15 +9,14 @@ sdf
 [Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-dgdf
+sfd
 # Usage
-dgfd
+df
 # Licensing
-[MIT](#MIT)
-[undefined](#GNU)
+MIT
 # Contributors
-dfg
+sdf
 # Badge
-dfg
+sdf
 # Questions
-dfg
+sdf
