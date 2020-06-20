@@ -1,5 +1,5 @@
 # Title
-sdf
+sdsf
 # Description
 sdf
 # Table of Contents
@@ -9,15 +9,15 @@ sdf
 [Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-dfssfg
+dsf
 # Usage
-sdf
+df
 # Licensing
-[MIT] (https://choosealicense.com/licenses/mit/)
-[undefined](https://choosealicense.com/licenses/gpl-3.0/)
+[MIT] (C:UsersChetBootcampNode.js-and-ES6-Homework-Good-README-Generatorlicense.txt)
+[undefined](C:UsersChetBootcampNode.js-and-ES6-Homework-Good-README-Generatorglicense.txt)
 # Contributors
 sdf
 # Badge
-sdfs
+sdf
 # Questions
 sdf

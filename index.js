@@ -75,8 +75,8 @@ const questions = [{
         `# Usage` + "\n" +
         `${response.usage}` + "\n" +
         `# Licensing` + "\n" +
-        `[${response.license[0]}] (https://choosealicense.com/licenses/mit/)` + "\n" +
-        `[${response.license[1]}](https://choosealicense.com/licenses/gpl-3.0/)` + "\n" +
+        `[${response.license[0]}] (C:\Users\Chet\Bootcamp\Node.js-and-ES6-Homework-Good-README-Generator\license.txt)` + "\n" +
+        `[${response.license[1]}](C:\Users\Chet\Bootcamp\Node.js-and-ES6-Homework-Good-README-Generator\glicense.txt)` + "\n" +
         `# Contributors` + "\n" + `${response.contributes}`
         + "\n" + `# Badge` + "\n" + `${response.badge}` + "\n" +
         `# Questions` + "\n" + `${response.questions}`
