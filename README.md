@@ -13,8 +13,7 @@ sdf
 # Usage
 sdf
 # Licensing
-[M] (undefined)
-[I](undefined)
+[MIT] (undefined)(undefined)
 # Contributors
 sdf
 # Badge
