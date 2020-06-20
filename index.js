@@ -10,17 +10,17 @@ const questions = [{
 {
     type: "text",
     name: "description",
-    message: "Provide a brief description for your project", 
+    message: "Provide a brief description for your project",
 },
 {
     type: "multiselect",
     name: "content",
     message: "Provide content here",
-    choices: [{value:"Installation"}, 
-    {value:"Usage"}, 
-    {value:"Licensing"}, 
-    {value:"Contibutors"}, 
-    {value:"Questions"}],
+    choices: [{ value: "Installation" },
+    { value: "Usage" },
+    { value: "Licensing" },
+    { value: "Contibutors" },
+    { value: "Questions" }],
 },
 {
     type: "text",
@@ -36,7 +36,7 @@ const questions = [{
     type: "select",
     name: "license",
     message: "Please choose a license or hit enter to skip",
-    choices: [{value:"GNU License"}, {value:"MIT License"}]
+    choices: [{ value: "GNU License" }, { value: "MIT License" }]
 },
 {
     type: "text",
@@ -57,31 +57,35 @@ const questions = [{
 ];
 
 (async () => {
-    const response = await prompts(questions); 
-    let readMeList = `# Title` +"\n" +  `${response.title}` +"\n" +  
-    `# Description` + "\n" + `${response.description}` + "\n" +  
-    `# Table of Contents`+ "\n" + `[${response.content[0]}](#installation)` 
-    + "\n" + `[${response.content[1]}](#usage)` +"\n" + 
-    `[${response.content[2]}](#license)` +"\n" + 
-    `[${response.content[3]}](#contributors)`
-    +"\n" + `[${response.content[4]}](#questions)` +"\n" + `# Installation` +"\n" + 
-    `${response.installation}` + "\n" + 
-    `# Usage` + "\n" + `${response.usage}` +"\n" + `# Licensing`+ "\n" +
-    `${response.license}` +"\n" + `# Contributors` +"\n" + `${response.contributes}` 
-    +"\n" +  `# Badge` + "\n" + `${response.badge}` +"\n" +  
-    `# Questions` +"\n" + `${response.questions}`
-    
-    fs.writeFile('README.md', readMeList, function (err){
-    if(err) throw err;
-    console.log('updated');
-}
-)
- })();
+    const response = await prompts(questions);
+    let readMeList = `# Title` + "\n" + `${response.title}` + "\n" +
+        `# Description` + "\n" + `${response.description}` + "\n" + 
+        `# Table of Contents` + "\n" + `[${response.content[0]}](#installation)`
+        + "\n" + `[${response.content[1]}](#usage)` 
+        + "\n" + `[${response.content[2]}](#license)`
+        + "\n" + `[${response.content[3]}](#contributors)` + "\n" +
+        `[${response.content[4]}](#questions)`
+        + "\n" + `# Installation` + "\n" +
+        `${response.installation}` + "\n" +
+        `# Usage` + "\n" +
+        `${response.usage}` + "\n" +
+        `# Licensing` + "\n" +
+        `${response.license}` + "\n" +
+        `# Contributors` + "\n" + `${response.contributes}`
+        + "\n" + `# Badge` + "\n" + `${response.badge}` + "\n" +
+        `# Questions` + "\n" + `${response.questions}`
+
+    fs.writeFile('README.md', readMeList, function (err) {
+        if (err) throw err;
+        console.log('updated');
+    }
+    )
+})();
 
 
-   function init(licenses){
-       
-    return  `MIT License
+function init(licenses) {
+
+    return `MIT License
 
       Copyright (c) 2020 Chet Martin
       
@@ -102,10 +106,10 @@ const questions = [{
       LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.`
-   }
+}
 
-   function outit(){
-       return `                    GNU GENERAL PUBLIC LICENSE
+function outit() {
+    return `                    GNU GENERAL PUBLIC LICENSE
        Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -779,4 +783,4 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.`
-   }
+}
