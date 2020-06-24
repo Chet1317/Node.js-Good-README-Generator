@@ -13,7 +13,7 @@ sdf
 # Usage
 sdf
 # Licensing
-file:///C:/Users/Chet/Bootcamp/Node.js-and-ES6-Homework-Good-README-Generator/index.html
+https://opensource.org/licenses/MIT
 # Contributors
 sdf
 # Badge
