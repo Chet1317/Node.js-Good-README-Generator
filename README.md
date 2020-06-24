@@ -11,7 +11,7 @@ sdf
 # Installation
 sdf
 # Usage
-sdf
+fsd
 # Licensing
 C:UsersChetBootcampNode.js-and-ES6-Homework-Good-README-Generatorassetslicense.txt
 # Contributors
