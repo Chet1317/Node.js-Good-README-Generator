@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "sdf # Description sdf # Table of Contents [Installation](#installation) [Usage](#usage) [Licensing](#license) [Contibutors](#contributors) [Questions](#questions) # Installation sdf # Usage sdf # Licensing MIT # Contributors sdf # Badge sdf # Questions sdf",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,17 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "inquirer": "^6.3.1",
+    "package.json": "^2.0.1",
     "prompt-choices": "^5.0.0",
     "prompts": "^2.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chet1317/Node.js-and-ES6-Homework-Good-README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chet1317/Node.js-and-ES6-Homework-Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/Chet1317/Node.js-and-ES6-Homework-Good-README-Generator#readme"
 }
