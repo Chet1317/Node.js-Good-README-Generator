@@ -1,6 +1,7 @@
 const prompts = require('prompts');
 const fs = require("fs");
 
+
 const questions = [{
     type: "text",
     name: "title",
@@ -14,7 +15,7 @@ const questions = [{
 {
     type: "multiselect",
     name: "content",
-    message: "Provide content here",
+    message: "What content would you like to include?",
     choices: [{ value: "Installation" },
     { value: "Usage" },
     { value: "Licensing" },
@@ -24,7 +25,7 @@ const questions = [{
 {
     type: "text",
     name: "installation",
-    message: "How will you be installing?",
+    message: "What applications will you be installing?",
 },
 {
     type: "text",
@@ -42,7 +43,6 @@ const questions = [{
     name: "contributes",
     message: "List any collaborators, if any?",
 },
-
 {
     type: "text",
     name: "questions",
@@ -64,7 +64,7 @@ const questions = [{
         `# Usage` + "\n" +
         `${response.usage}` + "\n" +
         `# Licensing` + "\n" +
-        `${response.license}` + "\n" +
+        `[${response.license}](https://opensource.org/licenses/MIT)` + "\n" +
         `# Contributors` + "\n" + `${response.contributes}`
         + "\n" + `# Badge` + "\n" + `${response.badge}` + "\n" +
         `# Questions` + "\n" + `${response.questions}`
@@ -72,8 +72,9 @@ const questions = [{
     fs.writeFile('README.md', readMeList, function (err) {
         if (err) throw err;
         console.log('updated');
-})});
+})
+})();
 
-    
+        
         
        

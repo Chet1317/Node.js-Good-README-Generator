@@ -1,5 +1,5 @@
 # Title
-sdsf
+sdf
 # Description
 sdf
 # Table of Contents
@@ -9,14 +9,14 @@ sdf
 [Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-dsf
+sdgf
 # Usage
-df
+sdf
 # Licensing
-[MIT] ()
-[undefined](# Contributors
+[MIT License](https://opensource.org/licenses/MIT)
+# Contributors
 sdf
 # Badge
-sdf
+undefined
 # Questions
 sdf
