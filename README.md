@@ -1,7 +1,7 @@
 # Title
-sdf
+sd'
 # Description
-sdf
+f
 # Table of Contents
 [Installation](#installation)
 [Usage](#usage)
@@ -11,9 +11,9 @@ sdf
 # Installation
 sdf
 # Usage
-sdf
+fsd
 # Licensing
-https://opensource.org/licenses/MIT
+https://choosealicense.com/licenses/gpl-3.0/
 # Contributors
 sdf
 # Badge
