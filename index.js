@@ -66,8 +66,7 @@ const questions = [{
         `# Usage` + "\n" +
         `${response.usage}` + "\n" +
         `# Licensing` + "\n" +
-        `[${response.license[0]}](https://opensource.org/licenses/MIT)` + "\n" +
-        `[${response.license[1]}](https://choosealicense.com/licenses/gpl-3.0/)`+"\n"+
+        `${response.license}` + "\n" +
         `# Contributors` + "\n" + `${response.contributes}`
         + "\n" + `# Badge` + "\n" + `${response.badge}` + "\n" +
         `# Questions` + "\n" + `${response.questions}`
