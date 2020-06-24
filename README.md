@@ -1,7 +1,7 @@
 # Title
-sd'
+Good Readme generator
 # Description
-f
+produces a readme for project
 # Table of Contents
 [Installation](#installation)
 [Usage](#usage)
@@ -9,14 +9,14 @@ f
 [Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-sdf
+Node.js
 # Usage
-fsd
+through github and node.js application
 # Licensing
-https://choosealicense.com/licenses/gpl-3.0/
+https://opensource.org/licenses/MIT
 # Contributors
-sdf
+none
 # Badge
 undefined
 # Questions
-sdf
+github profile 
