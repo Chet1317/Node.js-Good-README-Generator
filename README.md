@@ -9,15 +9,15 @@ sdf
 [Contibutors](#contributors)
 [Questions](#questions)
 # Installation
-sdf
+dfg
 # Usage
-sdf
+fdg
 # Licensing
-[MIT License](https://opensource.org/licenses/MIT)
-[undefined](https://choosealicense.com/licenses/gpl-3.0/)
+[M](https://opensource.org/licenses/MIT)
+[I](https://choosealicense.com/licenses/gpl-3.0/)
 # Contributors
-sdfsdf
+sdf
 # Badge
 undefined
 # Questions
-sdf
+dfg

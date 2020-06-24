@@ -33,7 +33,7 @@ const questions = [{
     message: "How will it be used?",
 },
 {
-    type: "multiselect",
+    type: "select",
     name: "license",
     message: "Please choose a license.",
     choices: [{ value: "MIT License" }, { value: "GNU License" }],
