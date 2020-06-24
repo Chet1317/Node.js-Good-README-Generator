@@ -36,7 +36,9 @@ const questions = [{
     type: "select",
     name: "license",
     message: "Please choose a license.",
-    choices: [{ value: "MIT License" }, { value: "GNU License" }],
+    choices: [{ title: "MIT License", value: "https://opensource.org/licenses/MIT" }, 
+    { title: "GNU License", value: "https://choosealicense.com/licenses/gpl-3.0/" }],
+   
 },
 {
     type: "text",
