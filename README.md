@@ -1,7 +1,7 @@
 # Title
 Readme Generator
 # Description
-To produce a Readme file for a project
+To produce a Readme file through prompts
 # Table of Contents
 [Installation](#installation)
 [Usage](#usage)
