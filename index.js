@@ -68,8 +68,7 @@ const questions = [{
         `# Licensing` + "\n" +
         `${response.license}` + "\n" +
         `# Contributors` + "\n" + `${response.contributes}`
-        + "\n" + `# Badge` + "\n" + `${response.badge}` + "\n" +
-        `# Questions` + "\n" + `${response.questions}`
+        + "\n" +  `# Questions` + "\n" + `${response.questions}`
         
     fs.writeFile('README.md', readMeList, function (err) {
         if (err) throw err;
