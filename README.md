@@ -1,7 +1,7 @@
 # Title
-Good Readme generator
+good Readme generator
 # Description
-Produce a readme file through prompts
+to produce a readme through prompts
 # Table of Contents
 [Installation](#installation)
 [Usage](#usage)
@@ -11,12 +11,10 @@ Produce a readme file through prompts
 # Installation
 node.js
 # Usage
-node.js
+run Node index.js
 # Licensing
 https://opensource.org/licenses/MIT
 # Contributors
 none
-# Badge
-undefined
 # Questions
-github
+github profile
