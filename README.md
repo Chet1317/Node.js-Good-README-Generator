@@ -17,4 +17,11 @@ https://opensource.org/licenses/MIT
 # Contributors
 none
 # Questions
+<<<<<<< HEAD
 github email
+=======
+github profile
+
+![image](https://user-images.githubusercontent.com/63617922/85639822-f100e880-b657-11ea-86b0-66aa49462376.png)
+
+>>>>>>> 58fe309075bd5d277716cfc3425d2801c62e9f1d
